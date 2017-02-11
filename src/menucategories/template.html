@@ -1,0 +1,15 @@
+<a ui-sref="home">Home</a> &lt; <span>Categories</span>
+<h3>Restaurant Menu Categories List </h3>
+<!--categories-list come from categoriesList component -->
+<div class="container col-lg-12  ">
+    <div class="col-lg-3">
+
+        <categories-list items="menuCategory.items"></categories-list>
+
+    </div>
+    <div class="col-lg-9">
+
+         <loading-spinner></loading-spinner>
+        <ui-view></ui-view>
+    </div>
+</div>
